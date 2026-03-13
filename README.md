@@ -172,3 +172,9 @@ karena operasi utama masih bergantung pada jumlah data mahasiswa dan sebagian be
 
 
 # 4. Refleksi Pembelajaran
+
+Melalui proyek ini saya mempelajari bagaimana menggunakan struktur data array dengan bahasa python untuk menyimpan dan mengelola sekumpulan data. Saya juga belajar bagaimana melakukan operasi dasar pada array seperti mencari nilai tertinggi, nilai terendah, dan menghitung rata-rata, serta melakukan proses seleksi untuk menentukan mahasiswa yang lulus dan tidak lulus berdasarkan suatu kondisi.
+
+Selain itu, proyek ini membantu memahami konsep analisis kompleksitas algoritma, khususnya bagaimana beberapa operasi pada array memiliki kompleksitas waktu O(n) karena harus memeriksa seluruh elemen data dan beberapa proses lain seperti pembuatan grafik hanya memproses data yang sudah tersedia sehingga memiliki kompleksitas O(1). lalu penggunaan library Matplotlib juga memberikan kemudahan dalam membuat visualisasi grafik data sederhana.
+
+Secara keseluruhan, proyek ini membantu saya memahami hubungan pengolahan data menggunakan array, analisis algoritma, dan visualisasi data, sehingga bisa belajar merancang program yang dibuat tidak hanya untuk memproses data tetapi juga disajikan secara lebih baik.
