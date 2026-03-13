@@ -38,3 +38,137 @@ Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudia
 
 ## Gambar 4 (Code 5)
 ![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss5.png?raw=true)
+
+# 3. Analisis Kompleksitas
+.
+
+---
+
+## ⚙️ 1️. Input 10 nilai mahasiswa
+
+Biasanya akan menggunakan perulangan seperti
+
+```python
+for i in range(10):
+    nilai = int(input())
+    arr.append(nilai)
+```
+
+Nantinya Program akan membaca setiap nilai satu per satu.
+
+Maka Kompleksitasnya adalah:
+
+```
+O(n)
+```
+
+karena harus melakukan input sebanyak **n kali**
+
+
+## ⚙️ 2️. Nilai terendah, tertinggi, dan rata-rata
+
+Biasanya menggunakan
+
+```python
+max(arr)
+min(arr)
+sum(arr)
+```
+
+Dimana semua fungsi ini harus memeriksa seluruh elemen pada array.
+
+Maka Kompleksitasnya adalah:
+
+```
+O(n)
+```
+
+karena setiap nilai harus diperiksa.
+
+Walaupun ada 3 operasi (max, min, sum), akan tetap dianggap O(n) karena konstanta tidak mempengaruhi kompleksitas.
+
+
+
+## ⚙️ 3️. Mahasiswa yang lulus dan tidak
+
+Biasanya menggunakan
+
+```python
+for n in arr:
+    if n >= 60:
+        lulus += 1
+```
+
+Program akan mengecek setiap nilai yang ada dalam array.
+
+Maka Kompleksitasnya adalah:
+
+```
+O(n)
+```
+
+
+## ⚙️ 4️. Grafik nilai tertinggi dan terendah
+
+Grafik hanya menggunakan 2 data yaitu
+
+* nilai tertinggi
+* nilai terendah
+
+
+```python
+plt.bar(['Tertinggi','Terendah'], [max_val, min_val])
+```
+
+Jumlah data akan tetap **2**.
+
+Maka Kompleksitasnya adalah:
+
+```
+O(1)
+```
+
+karena tidak bergantung pada jumlah mahasiswa.
+
+
+## ⚙️ 5️. Grafik lulus dan tidak lulus
+
+Grafik hanya menampilkan 2 kategori atau kondisi yaitu
+
+* lulus
+* tidak lulus
+
+
+```python
+plt.bar(['Lulus','Tidak Lulus'], [lulus, tidak_lulus])
+```
+
+Jumlah datanya akan tetap **2**
+
+Maka Kompleksitasnya adalah:
+
+```
+O(1)
+```
+
+# Ringkasan Kompleksitas
+
+| Bagian Program                               | Kompleksitas |
+| -------------------------------------------- | ------------ |
+| Input nilai mahasiswa                        | **O(n)**     |
+| Mencari nilai tertinggi, terendah, rata-rata | **O(n)**     |
+| Menghitung mahasiswa lulus                   | **O(n)**     |
+| Grafik nilai tertinggi & terendah            | **O(1)**     |
+| Grafik kelulusan                             | **O(1)**     |
+
+
+
+Jadi sebagian besar Kompleksitas program adalah
+
+```
+O(n)
+```
+karena operasi utama masih bergantung pada jumlah data mahasiswa dan sebagian besar operasi perlu memproses seluruh elemen array untuk melakukan perhitungan nilai mahasiswa.
+
+
+# 4. Refleksi Pembelajaran
