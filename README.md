@@ -27,6 +27,5 @@ Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudia
 - Menampilkan grafik nilai
 - Menampilkan grafik kelulusan
 
-[!alt}(ss1dan2.png?raw=true)
-
+![alt text](ss1dan2.png?raw=true
   
