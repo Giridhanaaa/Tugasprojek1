@@ -1,7 +1,7 @@
 # Tugasprojek1
 sistem sederhana pengelolaan nilai mahasiswa menggunakan array
 
-# 1. Penjelasan Konsep Array
+# 1. Penjelasan Konsep Array 🎯
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu variabel. Setiap elemen dalam array memiliki indeks yang digunakan untuk mengakses data tersebut. 
 
@@ -39,7 +39,7 @@ Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudia
 ## Gambar 4 (Code 5)
 ![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss5.png?raw=true)
 
-# 3. Analisis Kompleksitas
+# 3. Analisis Kompleksitas🧲
 .
 
 ---
@@ -151,7 +151,7 @@ Maka Kompleksitasnya adalah:
 O(1)
 ```
 
-# Ringkasan Kompleksitas
+# Ringkasan Kompleksitas 📝
 
 | Bagian Program                               | Kompleksitas |
 | -------------------------------------------- | ------------ |
@@ -171,7 +171,7 @@ O(n)
 karena operasi utama masih bergantung pada jumlah data mahasiswa dan sebagian besar operasi perlu memproses seluruh elemen array untuk melakukan perhitungan nilai mahasiswa.
 
 
-# 4. Refleksi Pembelajaran
+# 4. Refleksi Pembelajaran 📚
 
 Melalui proyek ini saya mempelajari bagaimana menggunakan struktur data array dengan bahasa python untuk menyimpan dan mengelola sekumpulan data. Saya juga belajar bagaimana melakukan operasi dasar pada array seperti mencari nilai tertinggi, nilai terendah, dan menghitung rata-rata, serta melakukan proses seleksi untuk menentukan mahasiswa yang lulus dan tidak lulus berdasarkan suatu kondisi.
 
