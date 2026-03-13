@@ -18,7 +18,7 @@ output = 10
 - "10, 20, 30, 40, 50" adalah elemen array
 - "angka[0]" mengakses elemen pertama pada array yaitu 10
 
-# 2. Hasil Screenshot Program dan Hasil Eksekusi
+# 2. Hasil Screenshot Program dan Hasil Eksekusi 📷
 Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudian dilakukan proses:
 - Menampilkan nilai tertinggi
 - Menampilkan nilai terendah
@@ -27,5 +27,14 @@ Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudia
 - Menampilkan grafik nilai
 - Menampilkan grafik kelulusan
 
-![alt text](ss1dan2.png?raw=true
-  
+## Gambar 1 (Code 1 dan 2)
+![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss1dan2.png?raw=true)
+
+## Gambar 2 (Code 3)
+![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss3.png?raw=true)
+
+## Gambar 3 (Code 4)
+![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss4.png?raw=true)
+
+## Gambar 4 (Code 5)
+![alt text](https://github.com/Giridhanaaa/Tugasprojek1/blob/main/screenshot/ss5.png?raw=true)
