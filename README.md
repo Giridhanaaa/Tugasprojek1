@@ -23,7 +23,7 @@ Pada program ini, array digunakan untuk menyimpan nilai 10 mahasiswa dan kemudia
 - Menampilkan nilai tertinggi
 - Menampilkan nilai terendah
 - Menghitung rata-rata nilai
-- Menghitung jumlah mahasiswa lulus (>=60)
+- Menghitung jumlah mahasiswa lulus, dengan kondisi (nilai >=60)
 - Menampilkan grafik nilai
 - Menampilkan grafik kelulusan
 
@@ -117,7 +117,7 @@ Grafik hanya menggunakan 2 data yaitu
 
 
 ```python
-plt.bar(['Tertinggi','Terendah'], [max_val, min_val])
+plt.bar(['Tertinggi','Terendah'])
 ```
 
 Jumlah data akan tetap **2**.
@@ -140,7 +140,7 @@ Grafik hanya menampilkan 2 kategori atau kondisi yaitu
 
 
 ```python
-plt.bar(['Lulus','Tidak Lulus'], [lulus, tidak_lulus])
+plt.bar([lulus, tidak_lulus])
 ```
 
 Jumlah datanya akan tetap **2**
@@ -173,7 +173,7 @@ karena operasi utama masih bergantung pada jumlah data mahasiswa dan sebagian be
 
 # 4. Refleksi Pembelajaran 📚
 
-Melalui proyek ini saya mempelajari bagaimana menggunakan struktur data array dengan bahasa python untuk menyimpan dan mengelola sekumpulan data. Saya juga belajar bagaimana melakukan operasi dasar pada array seperti mencari nilai tertinggi, nilai terendah, dan menghitung rata-rata, serta melakukan proses seleksi untuk menentukan mahasiswa yang lulus dan tidak lulus berdasarkan suatu kondisi.
+Melalui proyek ini saya mempelajari bagaimana membuat struktur data array menggunakan bahasa python untuk menyimpan dan mengelola sekumpulan data. Saya juga belajar bagaimana melakukan operasi dasar pada array seperti mencari nilai tertinggi, nilai terendah, dan menghitung rata-rata, serta melakukan proses seleksi untuk menentukan mahasiswa yang lulus dan tidak lulus berdasarkan suatu kondisi.
 
 Selain itu, proyek ini membantu memahami konsep analisis kompleksitas algoritma, khususnya bagaimana beberapa operasi pada array memiliki kompleksitas waktu O(n) karena harus memeriksa seluruh elemen data dan beberapa proses lain seperti pembuatan grafik hanya memproses data yang sudah tersedia sehingga memiliki kompleksitas O(1). lalu penggunaan library Matplotlib juga memberikan kemudahan dalam membuat visualisasi grafik data sederhana.
 
